@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap {
+	height: 552px;
+	background-image: url(../img/loginbg.jpg);
+	background-size:100%,100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+}
+#head {
+	height: 120px;
+	width: 100;
+	background-color: #76aa99;
+	text-align: center;
+	position: relative;
+}
+#wrap .logGet {
+	height: 408px;
+	width: 368px;  
+	position: absolute;
+	opacity:0.85;
+	background-color: #FFFFFF;
+	top: 20%;
+	right: 15%;
+}
+.logGet .reg {
+	position: absolute;
+	left:275px ;
+	top:350px ;	
+}
+
+.logGet .forg {
+	position: absolute;
+	left:25px ;
+	top:350px ;	
+}
+
+.logGet .reg a{text-decoration:none;}
+.logGet .forg a{text-decoration:none;color: black;}
+.logC a button {
+	width: 100%;
+	height: 45px;
+	background-color: #ee7700;
+	border: none;
+	color: white;
+	font-size: 18px;
+}
+.logC a button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
+.logGet .logD.logDtip .p1 {
+	display: inline-block;
+	font-size: 28px;
+	margin-top: 30px;
+	width: 86%;
+}
+#wrap .logGet .logD.logDtip {
+	width: 86%;
+	border-bottom: 1px solid #ee7700;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logGet .lgD img {
+	position: absolute;
+	top: 12px;
+	left: 8px;
+}
+.logGet .lgD input {
+	width: 100%;
+	height: 42px;
+	text-indent: 2.5rem;
+}
+#wrap .logGet .lgD {
+	width: 86%;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrap .logGet .logC {
+	width: 86%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+ 
+ 
+.title {
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	font-size: 36px;
+	height: 40px;
+	width: 30%;
+}
+.foot{
+	bottom: 0px; 
+	margin: 0px; 
+	position: fixed; 
+	width: 100%; 
+	height: 55px;
+	background-color: grey;
+	z-index: 10 ! important;
+}
+.foot div{
+	text-align: center; 
+	background-color: grey; 
+	border-top: 1px solid #8BAABF; 
+	padding: 5px;
+}
+#times{
+	display: block;
+	position: absolute;
+	z-index: 999;
+	left: 85%;top: 10%;
+}
+
+#jump{
+	position: absolute;
+	width: 400px;height: 400px;
+	z-index: 999;
+	top: 30%;
+	left: 20%;
+}

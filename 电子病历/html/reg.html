@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>用户注册</title>
+        <link rel="stylesheet" type="text/css" href="../css/regstyle.css">
+		<script type="text/javascript" src="../js/reg.js" ></script>
+    </head>
+ 
+    <body>
+		<form action="login.html" method="get">
+ <!--表单提交数据-->
+            <table>
+                
+                <tr>
+                    <td>
+                        <label>医生工号</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" placeholder="请输入账号" autofocus="autofocus"/>
+                    </td>
+                    <td>
+                        <span id="usernameInfo"></span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>密码</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pass" placeholder="请输入密码" />
+                    </td>
+                    <td>
+                        <span id="passwordInfo"></span>
+                    </td>
+                </tr>
+ 
+                <tr>
+                    <td>
+                        <label>重复密码</label>
+                    </td>
+                    <td>
+                        <input type="password" id="passwordAgain" placeholder="请再次输入密码"  />
+                    </td>
+                    <td>
+                        <span id="passwordAgainInfo"></span>
+                    </td>
+                </tr>
+ 
+                <tr>
+                    <td colspan="6">								<!--需要验证，未完善 -->
+                        <button class="reg-button" type="submit"  onclick="alert('succeed!')">确定</button>
+                    </td>
+                </tr>
+            </table>
+		</form>
+    </body>
+ 
+</html>

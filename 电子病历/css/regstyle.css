@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+span{
+      color: red;
+}
+body {
+	background-image: url(../img/regbg.jpg);
+}
+
+table td label{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #a99c9c;
+}
+
+table tr td .reg-button { 
+	width: 150px; 
+	height: 40px; 
+	border-width: 0px; 
+	border-radius: 3px; 
+	background: #1E90FF; 
+	cursor: pointer; 
+	outline: none; 
+	font-family: Microsoft YaHei; 
+	color: white; 
+	font-size: 17px; 
+}
+table tr td .reg-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
