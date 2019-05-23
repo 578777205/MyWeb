@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title>HTML5用户注册页面示例</title>
+        <link rel="stylesheet" href="css/reg.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<script>
+            function rep(){
+                var w1=document.getElementById("inp1").value;
+                var w2=document.getElementById("inp2").value;
+                //console.log(w1);
+                if(w1!=w2)
+                {
+                    var add=document.getElementsByTagName("p")[0];
+                    add.style.display="inline";
+                    document.getElementById("lab2").style.animation="shake 0.5s";
+                    document.getElementById("inp2").focus();
+                }
+                else{
+                    alert("注册成功！");
+                }
+            }
+            function none(){
+                document.getElementsByTagName("p")[0].style.display="none";
+                document.getElementById("lab2").style.animation="none";
+            }
+		</script>
+    </head>
+    <body>
+        <header class="head">用户注册界面</header>
+        <hr></hr>
+        <div id="container">
+            <form>
+                <label>用户名：<input type="text" name="username" size="25" placeholder="请输入用户名" ></label>
+                <label>密&#12288码：<input type="password" id="inp1" name="password" size="25" placeholder="请输入密码" ></label>
+                <label id="lab2">确&#12288认：<input type="password" id="inp2" onmouseover="none()" name="confirmpsw" size="25" placeholder="请再次输入密码" ><p>前后密码不一致，请重新输入！</p></label>
+                <label>姓&#12288名：<input type="text" name="u_name" size="25" placeholder="请输入真实姓名" ></label>
+                <label>邮&#12288箱：<input type="text" name="u_email" size="25" placeholder="请输入电子邮箱" ></label>           
+            </form>
+            <button type="submit" onclick="rep()">提交注册</button>
+            
+        </div>
+    </body>
+</html>
